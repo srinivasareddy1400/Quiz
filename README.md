@@ -93,6 +93,9 @@ java --module-path ~/Downloads/javafx-sdk-21.0.7/lib \
 To log in as an admin and manage quizzes/questions:
 - **Username:** `admin`
 - **Password:** `admin123`
+## Normal User
+- **Username:** `Sreddy`
+- **Password:** `Ytrewq@123`
 If needed, insert an admin manually:
 ```sql
 INSERT INTO users (username, email, password, role)
