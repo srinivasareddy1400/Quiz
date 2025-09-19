@@ -1,4 +1,4 @@
-name: Java CI/CD
+name: Java CI
 
 on:
   push:
@@ -32,10 +32,3 @@ jobs:
         name: quiz-app
         path: target/*.jar
         retention-days: 5
-
-    - name: Deploy to server (example)
-      if: github.ref == 'refs/heads/main'
-      run: |
-        # Add your deployment commands here
-        # Example: scp target/*.jar user@server:/path/to/deploy
-        echo "Deployment would happen here"
